@@ -1,0 +1,22 @@
+{
+  "root": "./docs",
+  "plugins": ["expandable-chapters", "anchors", "splitter", "forkmegithub", "etoc","github-issue-feedback"],
+  "pluginsConfig": {
+    "lunr": {
+      "maxIndexSize": 1000000
+    },
+    "forkmegithub": {
+      "url": "https://github.ibm.com/WH-GovHHS/GovHHS-Analytics-Playbook",
+      "color": "green"
+    },
+    "etoc": {
+          "mindepth": 3,
+          "maxdepth": 6,
+          "notoc": true
+    },
+        "github-issue-feedback": {
+            "repo": "mkristiansen/example",
+            "githubAPIBaseURL": "https://api.github.com/repos/mkristiansen/example/blob/master"
+    }
+  }
+}
